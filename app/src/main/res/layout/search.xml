@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:nendsdk="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/searchLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    android:orientation="vertical">
+
+    <!-- android:background="#23651c" -->
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="寮歌キーワード検索"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:id="@+id/searchText"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="2"
+            android:ems="10"
+            android:hint="検索ワード"
+            android:imeOptions="actionSearch"
+            android:inputType="text"
+             />
+
+        <Button
+            android:id="@+id/search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="検索" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="検索対象"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <RadioGroup
+            android:id="@+id/radioAndOr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/radioAnd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="AND" />
+
+            <RadioButton
+                android:id="@+id/radioOr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="OR　" />
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <CheckBox
+            android:id="@+id/checkTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="年, 曲名, 作歌者, 作曲者" />
+
+        <CheckBox
+            android:id="@+id/checkSong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="歌詞" />
+    </LinearLayout>
+
+    <!-- 広告 -->
+    <net.nend.android.NendAdView
+        android:id="@+id/nend2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        nendsdk:NendApiKey="01e8e8a4875cebf5970c2af586f3438783f5c25b"
+        nendsdk:NendSpotId="192217" />
+    <!-- 広告 -->
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="検索のヒント:"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="スペースを挟むことで複数のワードで AND, OR 検索ができます.\n「記念」などで検索すれば記念歌を絞り込めます.\n「遥」や「遙」などは区別します. (歌詞の漢字が間違っている可能性はあります)\n歌詞のみを指定し, 半角で6などを検索すれば6番のある歌詞を検索できます."
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+</LinearLayout>

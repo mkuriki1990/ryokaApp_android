@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:nendsdk="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawCardLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp" >
+
+        <RelativeLayout
+            android:id="@+id/cardBase0"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/cardBack0"
+                android:layout_width="91dp"
+                android:layout_height="136dp"
+                android:src="@drawable/tz01" />
+
+            <ImageView
+                android:id="@+id/cardView0"
+                android:layout_width="91dp"
+                android:layout_height="136dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/tz01"
+                android:visibility="invisible" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/cardBase1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/cardBack1"
+                android:layout_width="91dp"
+                android:layout_height="136dp"
+                android:src="@drawable/tz01" />
+
+            <ImageView
+                android:id="@+id/cardView1"
+                android:layout_width="91dp"
+                android:layout_height="136dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/tz01"
+                android:visibility="invisible" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/cardBase2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/cardBack2"
+                android:layout_width="91dp"
+                android:layout_height="136dp"
+                android:src="@drawable/tz01" />
+
+            <ImageView
+                android:id="@+id/cardView2"
+                android:layout_width="91dp"
+                android:layout_height="136dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/tz01"
+                android:visibility="invisible" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/cardBase6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/cardBack6"
+                android:layout_width="91dp"
+                android:layout_height="136dp"
+                android:src="@drawable/tz01" />
+
+            <ImageView
+                android:id="@+id/cardView6"
+                android:layout_width="91dp"
+                android:layout_height="136dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/tz01"
+                android:visibility="invisible" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <!-- 広告 -->
+    <net.nend.android.NendAdView
+        android:id="@+id/nend2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        nendsdk:NendApiKey="01e8e8a4875cebf5970c2af586f3438783f5c25b"
+        nendsdk:NendSpotId="192217" />
+	<!-- 広告 -->
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <RelativeLayout
+            android:id="@+id/cardBase3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/cardBack3"
+                android:layout_width="91dp"
+                android:layout_height="136dp"
+                android:src="@drawable/tz01" />
+
+            <ImageView
+                android:id="@+id/cardView3"
+                android:layout_width="91dp"
+                android:layout_height="136dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/tz01"
+                android:visibility="invisible" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/cardBase4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/cardBack4"
+                android:layout_width="91dp"
+                android:layout_height="136dp"
+                android:src="@drawable/tz01" />
+
+            <ImageView
+                android:id="@+id/cardView4"
+                android:layout_width="91dp"
+                android:layout_height="136dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/tz01"
+                android:visibility="invisible" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/cardBase5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/cardBack5"
+                android:layout_width="91dp"
+                android:layout_height="136dp"
+                android:src="@drawable/tz01" />
+
+            <ImageView
+                android:id="@+id/cardView5"
+                android:layout_width="91dp"
+                android:layout_height="136dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/tz01"
+                android:visibility="invisible" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/cardBase7"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/cardBack7"
+                android:layout_width="91dp"
+                android:layout_height="136dp"
+                android:src="@drawable/tz01" />
+
+            <ImageView
+                android:id="@+id/cardView7"
+                android:layout_width="91dp"
+                android:layout_height="136dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/tz01"
+                android:visibility="invisible" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <!-- 広告 -->
+
+    <net.nend.android.NendAdView
+        android:id="@+id/nend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        nendsdk:NendApiKey="01e8e8a4875cebf5970c2af586f3438783f5c25b"
+        nendsdk:NendSpotId="192217" />
+
+	<!-- 広告 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/resetButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="リセット" />
+
+        <Button
+            android:id="@+id/openButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="オープン" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/howToButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="遊び方" />
+
+        <Button
+            android:id="@+id/whatCardButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="カード引き？" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <RelativeLayout
+            android:id="@+id/cardBase8"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/cardBack8"
+                android:layout_width="91dp"
+                android:layout_height="136dp"
+                android:src="@drawable/tz01" />
+
+            <ImageView
+                android:id="@+id/cardView8"
+                android:layout_width="91dp"
+                android:layout_height="136dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/tz01"
+                android:visibility="invisible" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/cardBase9"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/cardBack9"
+                android:layout_width="91dp"
+                android:layout_height="136dp"
+                android:src="@drawable/tz01" />
+
+            <ImageView
+                android:id="@+id/cardView9"
+                android:layout_width="91dp"
+                android:layout_height="136dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/tz01"
+                android:visibility="invisible" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/cardBase10"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/cardBack10"
+                android:layout_width="91dp"
+                android:layout_height="136dp"
+                android:src="@drawable/tz01" />
+
+            <ImageView
+                android:id="@+id/cardView10"
+                android:layout_width="91dp"
+                android:layout_height="136dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/tz01"
+                android:visibility="invisible" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/cardBase11"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/cardBack11"
+                android:layout_width="91dp"
+                android:layout_height="136dp"
+                android:src="@drawable/tz01" />
+
+            <ImageView
+                android:id="@+id/cardView11"
+                android:layout_width="91dp"
+                android:layout_height="136dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/tz01"
+                android:visibility="invisible" />
+        </RelativeLayout>
+    </LinearLayout>
+	    
+</LinearLayout>

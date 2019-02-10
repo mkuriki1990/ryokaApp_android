@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:nendsdk="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/songListLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!--tools:context="${packageName}.${activityClass}" -->
+
+    <!-- android:background="#23651c" -->
+
+    <ListView
+        android:id="@+id/songList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fastScrollEnabled="true"
+        android:smoothScrollbar="true"
+        android:layout_weight="1"
+         >
+
+    </ListView>
+    
+    <!-- 広告 -->
+    <net.nend.android.NendAdView
+        android:id="@+id/nend2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        nendsdk:NendApiKey="01e8e8a4875cebf5970c2af586f3438783f5c25b"
+        nendsdk:NendSpotId="192217" />
+    <!-- 広告 -->
+
+</LinearLayout>
